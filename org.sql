@@ -19,3 +19,13 @@ INSERT INTO Worker
         (006 , 'Manisha' , 'Pandey' , 100000 , '01-03-21' , 'Admin'),
         (007 , 'Geetika' , 'Chauhan' , 180000 , '15-09-07' , 'HR'),
         (008 , 'Satish' , 'Singh' , 20000 , '18-10-21' , 'Accountant');
+Select * FROM BONUS
+
+CREATE TABLE BONUS(
+    WORKER_REF_ID INT ,
+    BONUS_AMOUNT INT(10) ,
+    BONUS_DATE DATE ,
+    FOREIGN KEY (WORKER_REF_ID)
+        REFERENCES Worker(WORKER_ID)
+        ON DELETE CASCADE
+);
