@@ -29,3 +29,11 @@ CREATE TABLE BONUS(
         REFERENCES Worker(WORKER_ID)
         ON DELETE CASCADE
 );
+    
+
+CREATE TABLE OFFICE(
+    e_name VARCHAR(25) ,
+    id INT NOT NULL ,
+    phone INT(10)
+);
+
