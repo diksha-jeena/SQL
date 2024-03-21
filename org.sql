@@ -45,7 +45,8 @@ SELECT id FROM OFFICE WHERE id = 1;
 SHOW TABLES;
 SELECT * FROM office;
 ALTER TABLE OFFICE ADD(SALARY INT);
+
+
 use org;
 create table dixu(name varchar(25));
-
 UPDATE DIXU SET NAME = AGE INT;
