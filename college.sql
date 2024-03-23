@@ -5,4 +5,6 @@ STUDENTS
 INSERT INTO STUDENTS
 VALUES
 ("Ramesh" , 100 , 1334),
-("Nitin" , 101 , 201);
+("Nitin" , 101 , 201),
+("Ritika" , 102 , 1567),
+("Priya" , 103 , 2036);
