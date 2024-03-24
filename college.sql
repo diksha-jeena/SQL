@@ -8,3 +8,5 @@ VALUES
 ("Nitin" , 101 , 201),
 ("Ritika" , 102 , 1567),
 ("Priya" , 103 , 2036);
+SHOW TABLES;
+ALTER TABLE STUDENTS ADD(class INT);
