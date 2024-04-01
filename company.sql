@@ -11,5 +11,10 @@ INSERT INTO EMPLOYEE (EMP_ID , NAME , SALARY)
 VALUES
 (101 , 'RAM' , 100000) ,
 (102 , 'RAMESH' , 200000) , 
-(103 , 'RAJESH' , 500000) ;
-
+(103 , 'RAJESH' , 500000) ,
+(105 , 'Rakesh' , 675840) , 
+(200 , 'Suresh' , 500708) , 
+(167 , 'Girdhari' , 90000) , 
+(145 , 'XYZ' , 546789) , 
+(182 , 'Nobita' , 700000) ;
+SELECT * FROM EMPLOYEE ;
