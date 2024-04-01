@@ -53,3 +53,7 @@ VALUES
 ('Siddharth' , 4 , 80773052  , 90000) , 
 ('Tanisha' , 3 , 90874534 , 25000) , 
 ('Pooja' , 5 , 45678943 , 45000);
+SELECT * FROM office
+
+SELECT COUNT (phone)
+FROM OFFICE;
