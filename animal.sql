@@ -1,3 +1,4 @@
+-- Active: 1709824304208@@127.0.0.1@3306@animals
 #creating database
 CREATE DATABASE ANIMALS ;
 #using database
@@ -22,3 +23,7 @@ FROM CAT
 WHERE BREED LIKE 'R%'
   AND FAV_TOY LIKE 'ball%'
   AND COLORATION LIKE '%m';
+
+SELECT NAME
+FROM CAT 
+WHERE SEX = 'M' ;
