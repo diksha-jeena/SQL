@@ -27,3 +27,12 @@ WHERE BREED LIKE 'R%'
 SELECT NAME
 FROM CAT 
 WHERE SEX = 'M' ;
+SELECT
+  ID,
+  NAME,
+  BREED,
+  COLORATION
+FROM cat
+WHERE sex = 'F'
+  AND fav_toy = 'puzzle'
+  AND (breed NOT LIKE 'Persian' AND breed NOT LIKE 'Siamese');
